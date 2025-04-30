@@ -1,0 +1,28 @@
+name: flutter_edit_photo_app
+description: "Aplikasi editor foto untuk pembelajaran pengolahan citra digital."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  file_saver: ^0.2.9
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  image: ^4.1.6
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  photo_manager: ^3.6.4
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
