@@ -2,6 +2,18 @@
 
 Aplikasi editor foto sederhana untuk membantu praktikum pengolahan citra digital dalam mengimplementasikan materi-materi yang telah dipelajari.
 
+## Demo
+
+Berikut adalah beberapa tampilan demo dari aplikasi:
+
+<p align="center">
+  <img src="assets/demo/pc_1.png" alt="Demo 1" width="300"/>
+  <img src="assets/demo/pc_2.png" alt="Demo 2" width="300"/>
+  <img src="assets/demo/pc_3.png" alt="Demo 3" width="300"/>
+  <img src="assets/demo/pc_4.png" alt="Demo 4" width="300"/>
+  <img src="assets/demo/pc_5.png" alt="Demo 5" width="300"/>
+</p>
+
 ## Tentang Aplikasi
 
 Photo Editing App adalah aplikasi yang dirancang untuk membantu mahasiswa dan asisten praktikum dalam mengimplementasikan konsep-konsep pengolahan citra digital yang telah dipelajari. Aplikasi ini berfungsi sebagai alat praktis untuk memahami dan mengaplikasikan materi-materi seperti:
