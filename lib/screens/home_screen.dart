@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:flutter_edit_photo_app/constants/app_theme.dart';
 import 'package:flutter_edit_photo_app/services/image_provider.dart';
 import 'package:flutter_edit_photo_app/widgets/image_preview.dart';
-import 'package:flutter_edit_photo_app/widgets/filter_button.dart';
+// import 'package:flutter_edit_photo_app/widgets/filter_button.dart';
 import 'package:flutter_edit_photo_app/screens/menu_screens/image_type_screen.dart';
 import 'package:flutter_edit_photo_app/screens/menu_screens/pixel_operations_screen.dart';
 import 'package:flutter_edit_photo_app/screens/menu_screens/convolution_screen.dart';
@@ -13,7 +13,7 @@ import 'package:flutter_edit_photo_app/screens/menu_screens/edge_detection_scree
 import 'package:photo_manager/photo_manager.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  const  HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -22,7 +22,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen>
     with SingleTickerProviderStateMixin {
   final _scaffoldKey = GlobalKey<ScaffoldState>();
-  String? _fileName;
+  // String? _fileName;
   final _fileNameController = TextEditingController();
   late AnimationController _animationController;
   late Animation<double> _animation;
@@ -41,10 +41,7 @@ class _HomeScreenState extends State<HomeScreen>
       curve: Curves.easeInOut,
     );
     _animationController.forward();
-
-    // Periksa sekali lagi izin penyimpanan saat masuk home screen
-    // Ini akan memastikan izin tersedia bahkan jika user skip dari splash screen
-    // _checkStoragePermission();
+ 
   }
 
   @override
